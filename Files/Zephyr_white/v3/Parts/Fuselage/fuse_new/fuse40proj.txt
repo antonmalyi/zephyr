@@ -1,0 +1,104 @@
+[Profil]
+rootx = [1.0, 0.0, 0.0, 1.0]
+rooty = [0.2, 0.2, -0.2, -0.2]
+roots = [4, 4.0, 4.0, 4]
+tipx = [1.0, 0.0, 0.0, 1.0]
+tipy = [0.2, 0.2, -0.2, -0.2]
+tips = [4, 4.0, 4.0, 4]
+nameroot = fusecenter40mm.dxf
+nametip = fusecenter40mm.dxf
+
+[Transform]
+croot = 100.0
+ctip = 100.0
+incidenceroot = 0.0
+thicknessroot = 100.0
+tethicknessroot = 0.0
+vinvertroot = 0
+incidencetip = 0.0
+thicknesstip = 100.0
+tethicknesstip = 0.0
+vinverttip = 0
+covering = 0.0
+smooth = 0
+nbrpoints = 101
+repartition = 1.0
+reducepoints = 0
+
+[Bloc]
+bloclx = 154.0
+blochz = 150.0
+fleading = 0.0
+ftrailing = 0.0
+mleading = 3.0
+mtrailing = 3.0
+cbcutboth = 0
+cbrotdelta = 0
+rbleftwing = 1
+rbrightwing = 0
+rbtabletoblockleft = 0
+rbtabletoblockright = 1
+bloctotableleft = 326.0
+bloctotableright = 370.0
+bloctotabletrailingroot = 5.0
+hoffset = 0.0
+hprofileroot = 3.0
+hprofiletip = 3.0
+cbalignprofiles = 3
+angleinroot = 0.0
+angleintip = 0.0
+angleoutroot = 0.0
+angleouttip = 0.0
+gbextracutcmdsactive = 0
+extracutcommands = X; LE;=; 0;=; 0;=; 8;=; 1;=; 8;=; 2;=; 10;=
+	L; TE;=; 90;=; 5;=
+
+[Material]
+mspeednorm = 4.9
+mspeedhalf = 2.5
+mspeedmin = 0.5
+mspeedmax = 6.0
+mradspnorm = 1.1
+mradsphalf = 1.5
+mheatspnorm = 80.0
+mname = Yellow foam 40 kg/m3
+mhotwire = NiCr, 800 mm x 0.3 mm, 24 V
+
+[Table]
+tableyy = 850.0
+tableyg = 0.0
+tableyd = 0.0
+maxdiag = 1000.0
+cmaxy = 660.0
+cmaxz = 360.0
+vmaxy = 16.0
+vmaxz = 16.0
+theatingmax = 100.0
+tsvaluemin = 0.0
+tsvaluemax = 1000.0
+tname = My CNC
+tcomport = Select port
+tbaudrate = 115200
+tpreheat = 4.0
+tpostheat = 4.0
+vcut = 4.9
+gcodestart1 = 
+gcodestart2 = 
+gcodestart3 = 
+gcodestart4 = 
+gcodeend1 = 
+gcodeend2 = 
+gcodeend3 = 
+gcodeend4 = 
+gcodeletters = XYAZ
+
+[Cut]
+vcut = 4.9
+vheat = 80.0
+vusefoamparam = 1
+
+[Guillotine]
+gcuttingspeed = 4.9
+gheating = 80.0
+gusefoamparam = 1
+

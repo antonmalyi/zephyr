@@ -1,0 +1,103 @@
+[Profil]
+rootx = [1.0, 0.9961378526511366, 0.0, 0.006164321064492102, 0.04747949875617719, 0.04979876079683131, 0.9605839480726917, 0.9586848321962474, 1.0]
+rooty = [0.0, 0.044144613544790594, 0.06677199226494723, -0.003686523823747365, -7.191493340437879e-05, -0.026581189181304497, -0.025321843428820174, -0.0036146108679294955, 0.0]
+roots = [4, 4, 4, 4, 4, 4, 4, 4, 4]
+tipx = [1.0, 0.9961378526511366, 0.0, 0.006164321064492102, 0.04747949875617719, 0.04979876079683131, 0.9605839480726917, 0.9586848321962474, 1.0]
+tipy = [0.0, 0.044144613544790594, 0.06677199226494723, -0.003686523823747365, -7.191493340437879e-05, -0.026581189181304497, -0.025321843428820174, -0.0036146108679294955, 0.0]
+tips = [4, 4, 4, 4, 4, 4, 4, 4, 4]
+nameroot = Battery_lid.dxf
+nametip = Battery_lid.dxf
+
+[Transform]
+croot = 120.5
+ctip = 120.5
+incidenceroot = 0.0
+thicknessroot = 100.0
+tethicknessroot = 0.0
+vinvertroot = 0
+incidencetip = 0.0
+thicknesstip = 100.0
+tethicknesstip = 0.0
+vinverttip = 0
+covering = 0.0
+smooth = 1
+nbrpoints = 201
+repartition = 1.0
+reducepoints = 0
+
+[Bloc]
+bloclx = 153.4
+blochz = 50.0
+fleading = 0.0
+ftrailing = 0.0
+mleading = 5.0
+mtrailing = 1.0
+cbcutboth = 0
+cbrotdelta = 0
+rbleftwing = 1
+rbrightwing = 0
+rbtabletoblockleft = 0
+rbtabletoblockright = 1
+bloctotableleft = 386.6
+bloctotableright = 310.0
+bloctotabletrailingroot = 200.0
+hoffset = 0.0
+hprofileroot = 10.0
+hprofiletip = 10.0
+cbalignprofiles = 3
+angleinroot = 0.0
+angleintip = 0.0
+angleoutroot = 0.0
+angleouttip = 0.0
+gbextracutcmdsactive = 1
+extracutcommands = X; LE;=; 0;=; 0;=; 8;=; 1;=; 8;=; 2;=; 10;=
+
+[Material]
+mspeednorm = 3.0
+mspeedhalf = 1.5
+mspeedmin = 0.5
+mspeedmax = 4.0
+mradspnorm = 1.1
+mradsphalf = 2.2
+mheatspnorm = 80.0
+mname = grey 22kg/m3
+mhotwire = NiCr, 800 mm x 0.3 mm, 24 V
+
+[Table]
+tableyy = 850.0
+tableyg = 0.0
+tableyd = 0.0
+maxdiag = 1000.0
+cmaxy = 660.0
+cmaxz = 360.0
+vmaxy = 16.0
+vmaxz = 16.0
+theatingmax = 100.0
+tsvaluemin = 0.0
+tsvaluemax = 1000.0
+tname = My CNC
+tcomport = Select port
+tbaudrate = 115200
+tpreheat = 4.0
+tpostheat = 4.0
+vcut = 3.0
+gcodestart1 = 
+gcodestart2 = 
+gcodestart3 = 
+gcodestart4 = 
+gcodeend1 = 
+gcodeend2 = 
+gcodeend3 = 
+gcodeend4 = 
+gcodeletters = XYAZ
+
+[Cut]
+vcut = 3.0
+vheat = 80.0
+vusefoamparam = 1
+
+[Guillotine]
+gcuttingspeed = 3.0
+gheating = 80.0
+gusefoamparam = 1
+

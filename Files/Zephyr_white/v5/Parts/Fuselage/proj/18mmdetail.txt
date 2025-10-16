@@ -1,0 +1,104 @@
+[Profil]
+rootx = [1.0, 0.0, 0.0, 0.5350503494197377, 0.5350503494197377, 0.5510830959914709, 0.5510830959914709, 0.9624992518084219, 0.9624992518084219, 1.0, 1.0]
+rooty = [0.0, 1.5037376126292517e-14, 0.12011190336512516, 0.16681214609722886, 0.0005344248936879908, 0.0005344248936879908, 0.3084275035387219, 0.2883543389647899, 0.0005344248936879908, 0.0005344248936879908, 0.0]
+roots = [4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 4]
+tipx = [1.0, 0.0, 0.0, 0.5350503494197377, 0.5350503494197377, 0.5510830959914709, 0.5510830959914709, 0.9624992518084219, 0.9624992518084219, 1.0, 1.0]
+tipy = [0.0, 1.5037376126292517e-14, 0.12011190336512516, 0.16681214609722886, 0.0005344248936879908, 0.0005344248936879908, 0.3084275035387219, 0.2883543389647899, 0.0005344248936879908, 0.0005344248936879908, 0.0]
+tips = [4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 4]
+nameroot = 18mmdetail.dxf
+nametip = 18mmdetail.dxf
+
+[Transform]
+croot = 187.1
+ctip = 187.1
+incidenceroot = 0.0
+thicknessroot = 100.0
+tethicknessroot = 0.0
+vinvertroot = 0
+incidencetip = 0.0
+thicknesstip = 100.0
+tethicknesstip = 0.0
+vinverttip = 0
+covering = 0.0
+smooth = 0
+nbrpoints = 101
+repartition = 1.0
+reducepoints = 0
+
+[Bloc]
+bloclx = 18.0
+blochz = 50.0
+fleading = 0.0
+ftrailing = 0.0
+mleading = 5.0
+mtrailing = 10.0
+cbcutboth = 0
+cbrotdelta = 0
+rbleftwing = 1
+rbrightwing = 0
+rbtabletoblockleft = 0
+rbtabletoblockright = 1
+bloctotableleft = 827.0
+bloctotableright = 10.0
+bloctotabletrailingroot = 5.0
+hoffset = 0.0
+hprofileroot = 10.0
+hprofiletip = 10.0
+cbalignprofiles = 3
+angleinroot = 0.0
+angleintip = 0.0
+angleoutroot = 0.0
+angleouttip = 0.0
+gbextracutcmdsactive = 0
+extracutcommands = X; LE;=; 0;=; 0;=; 8;=; 1;=; 8;=; 2;=; 10;=
+	L; TE;=; 90;=; 5;=
+
+[Material]
+mspeednorm = 3.5
+mspeedhalf = 1.8
+mspeedmin = 0.5
+mspeedmax = 6.0
+mradspnorm = 1.0
+mradsphalf = 3.0
+mheatspnorm = 80.0
+mname = Yellow foam 40 kg/m3
+mhotwire = NiCr, 800 mm x 0.3 mm, 24 V
+
+[Table]
+tableyy = 855.0
+tableyg = 0.0
+tableyd = 0.0
+maxdiag = 1000.0
+cmaxy = 660.0
+cmaxz = 360.0
+vmaxy = 60.0
+vmaxz = 60.0
+theatingmax = 100.0
+tsvaluemin = 0.0
+tsvaluemax = 1000.0
+tname = My CNC
+tcomport = Select port
+tbaudrate = 115200
+tpreheat = 4.0
+tpostheat = 4.0
+vcut = 3.5
+gcodestart1 = 
+gcodestart2 = 
+gcodestart3 = 
+gcodestart4 = 
+gcodeend1 = 
+gcodeend2 = 
+gcodeend3 = 
+gcodeend4 = 
+gcodeletters = XYAZ
+
+[Cut]
+vcut = 3.5
+vheat = 80.0
+vusefoamparam = 1
+
+[Guillotine]
+gcuttingspeed = 3.5
+gheating = 80.0
+gusefoamparam = 1
+
